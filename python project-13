@@ -1,0 +1,12 @@
+for k in range(1000):
+    n = int(input("Enter a value till you which you want table : "))
+    
+    def table(n):
+        for j in range(2, n+1):
+            for i in range (1, 11):
+                print(f"{j} * {i} = {j*i} ")
+            print("\n")
+        j+=1
+    table(n)
+    k+=1
+         
